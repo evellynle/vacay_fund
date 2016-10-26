@@ -1,0 +1,48 @@
+/* Remove margins and padding from the list, and add a powderblue background color */
+.topbar {
+    border-style: solid;
+    border-width: 3px;
+    background-color: powderblue;
+    text-align: center;
+}
+
+header {
+    color: black;
+}
+
+.goalBar {
+    border-style: solid;
+    border-width: 3px;
+    background-color: #ffa500;
+    text-align: center;
+}
+
+
+/* Remove margins and padding from the list, and add a powderblue background color */
+ul.bottomnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 100;
+    overflow: hidden;
+    background-color: powderblue;
+}
+
+/* Float the list items side by side */
+ul.bottomnav li {float: center;}
+
+/* Style the links inside the list items */
+ul.bottomnav li {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.bottomnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.bottomnav li.icon {display: none;}
