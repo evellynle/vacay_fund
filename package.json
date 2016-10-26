@@ -1,0 +1,22 @@
+{
+  "name": "vacay_fund",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kexinChen/vacay_fund.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kexinChen/vacay_fund/issues"
+  },
+  "homepage": "https://github.com/kexinChen/vacay_fund#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
